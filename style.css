@@ -34,7 +34,7 @@
   margin: 0 auto 20px;
   display: flex;
   align-items: center;
-  max-width: 100%;
+  max-width: 1vw;
 }
 .lupa {
   flex-grow: 1;
