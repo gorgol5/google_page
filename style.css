@@ -1,0 +1,120 @@
+.body {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  font-family: arial, sans-serif;
+}
+.top {
+  flex: 1;
+  text-align: right;
+}
+.top button {
+  cursor: pointer;
+  border-width: 0;
+  background-color: white;
+}
+.sign:hover {
+  text-decoration: underline;
+}
+.m-sign {
+  border-radius: 50%;
+}
+.main {
+  text-align: center;
+}
+.logo {
+  display: block;
+  margin: 8% auto 2% auto;
+}
+.input {
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  height: 44px;
+  width: 582px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+}
+.lupa {
+  flex-grow: 1;
+  height: 24px;
+  width: 12px;
+}
+.text {
+  flex-grow: 10;
+  border: 0px;
+}
+.text:focus {
+  border: 0px;
+}
+.mikrofon {
+  height: 25px;
+  width: 4px;
+  flex-grow: 1;
+  cursor: pointer;
+}
+.klawiatura {
+  height: 10px;
+  width: 4px;
+  flex-grow: 1;
+  cursor: pointer;
+}
+.main-button {
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  border-radius: 4px;
+  color: #5f6368;
+  font-size: 14px;
+  margin: 11px 4px 18px;
+  padding: 0 16px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 0px;
+}
+.main-button:hover {
+  border: 1px solid gray;
+}
+.english-button {
+  border-width: 0;
+  background-color: white;
+  cursor: pointer;
+}
+.english-button:hover {
+  text-decoration: underline;
+}
+.polska {
+  border-top: 1px solid #d2d2d2;
+  line-height: 40px;
+  padding-left: 27px;
+  font-size: 15px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.54);
+}
+.bottom {
+  margin-top: 46vh;
+  background-color: #f2f2f2;
+}
+.buttons {
+  border-top: 1px solid #d2d2d2;
+  line-height: 40px;
+}
+.buttons button {
+  background-color: #f2f2f2;
+  border: 0px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.64);
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 15px;
+}
+.buttons button:hover {
+  text-decoration: underline;
+}
+.right {
+  float: right;
+}
+.left {
+  text-align: left;
+}
