@@ -97,15 +97,6 @@ body {
 .eng-btn {
   text-align: center;
 }
-.polska {
-  border-top: 1px solid #d2d2d2;
-  line-height: 40px;
-  padding-left: 2.5%;
-  font-size: 15px;
-  text-align: left;
-  color: rgba(0, 0, 0, 0.54);
-  font-size: calc(5px + 0.45vw);
-}
 .footer {
   max-height: 130px;
   flex-grow: 1;
@@ -113,10 +104,18 @@ body {
   flex-direction: column;
   color: rgba(0, 0, 0, 0.64);
   background-color: #f2f2f2;
+  line-height: 40px;
+}
+.polska {
+  border-top: 1px solid #d2d2d2;
+  padding-left: 2.5%;
+  font-size: 15px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: calc(5px + 0.45vw);
 }
 .buttons {
   border-top: 1px solid #d2d2d2;
-  line-height: 40px;
 }
 .buttons button {
   background-color: #f2f2f2;
@@ -130,8 +129,6 @@ body {
 }
 .buttons button:hover {
   text-decoration: underline;
-}
-.left {
 }
 .right {
   align-content: flex-end;
