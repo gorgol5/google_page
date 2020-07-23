@@ -1,12 +1,13 @@
-.body {
-  margin: 0 auto;
-
+body {
   display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
   font-family: arial, sans-serif;
 }
 .top {
-  flex: 1;
-  text-align: right;
+  flex-grow: 1;
+  align-self: flex-end;
 }
 .top button {
   cursor: pointer;
@@ -20,7 +21,9 @@
   border-radius: 50%;
 }
 .main {
-  text-align: center;
+  flex-grow: 5;
+  align-self: center;
+  width: 100%;
 }
 .logo {
   display: block;
@@ -30,7 +33,7 @@
   border: 1px solid #dfe1e5;
   border-radius: 24px;
   height: 44px;
-  width: 60%;
+  width: 40vw;
   margin: 0 auto 20px;
   display: flex;
   align-items: center;
@@ -64,6 +67,9 @@
   cursor: pointer;
   min-width: 20px;
 }
+.btns {
+  text-align: center;
+}
 .main-button {
   background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
   border-radius: 4px;
@@ -73,7 +79,6 @@
   padding: 0 16px;
   height: 36px;
   min-width: 54px;
-  text-align: center;
   cursor: pointer;
   box-sizing: border-box;
   border: 0px;
@@ -89,6 +94,9 @@
 .english-button:hover {
   text-decoration: underline;
 }
+.eng-btn {
+  text-align: center;
+}
 .polska {
   border-top: 1px solid #d2d2d2;
   line-height: 40px;
@@ -98,13 +106,13 @@
   color: rgba(0, 0, 0, 0.54);
   font-size: calc(5px + 0.45vw);
 }
-.bottom {
+.footer {
+  max-height: 130px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.64);
   background-color: #f2f2f2;
-  bottom: 0;
-  display: block;
-  position: fixed;
-  width: 100%;
-  padding-bottom: 10px;
 }
 .buttons {
   border-top: 1px solid #d2d2d2;
@@ -123,12 +131,9 @@
 .buttons button:hover {
   text-decoration: underline;
 }
-.right {
-  float: right;
-  margin-right: 30px;
-  display: block;
-}
 .left {
-  float: left;
-  display: inline-block;
+}
+.right {
+  align-content: flex-end;
+  text-align: end;
 }
